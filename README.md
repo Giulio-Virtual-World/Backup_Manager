@@ -1,7 +1,9 @@
-# 📦 Backup Manager
+## 📦 Backup Manager
 Un programma in Python robusto e completo per gestire backup di file, directory e dischi interi su Windows.
 
-# ✨ Caratteristiche Principali
+<br>
+
+## ✨ Caratteristiche Principali
 <ol>
   <li><b>Backup Flessibile:</b> Supporta il backup di dischi interi, directory specifiche o singoli file</li>
   <li><b>Quattro modalità per gestire file già esistenti:</b></li>
@@ -21,7 +23,9 @@ Un programma in Python robusto e completo per gestire backup di file, directory 
   <li><b>Preservazione Metadati:</b> Mantiene timestamp e attributi originali dei file</li>
 </ol>
 
-# 🚀 Utilizzo
+<br>
+
+## 🚀 Utilizzo
 Il programma guiderà l'utente attraverso un processo interattivo:
 
 <ol>
@@ -32,8 +36,9 @@ Il programma guiderà l'utente attraverso un processo interattivo:
   <li>Attendi il termine del backup</li>
 </ol>
 
-# 📊 Funzionalità Avanzate
+<br>
 
+## 📊 Funzionalità Avanzate
 <ul>
   <li><b>Validazione Percorsi</b>: Verifica che tutti i percorsi siano accessibili prima di iniziare</li>
   <li><b>Calcolo Dimensioni</b>: Mostra lo spazio richiesto in GB prima del backup</li>
@@ -42,19 +47,25 @@ Il programma guiderà l'utente attraverso un processo interattivo:
   <li><b>Gestione Permessi</b>: Identifica e registra problemi di accesso</li>
 </ul>
 
-# 📋 Requisiti
+<br>
+
+## 📋 Requisiti
 <ul>
   <li>Python 3.6+</li>
   <li>Sistema operativo Windows</li>
   <li>Moduli standard Python (os, shutil, logging, datetime, pathlib)</li>
 </ul>
 
-# ⚠️ Note
+<br>
+
+## ⚠️ Note
 Progettato specificamente per Windows (gestione lettere di unità)<br>
 Richiede permessi appropriati per accedere ai percorsi sorgente e destinazione<br>
 I file di sistema Windows vengono automaticamente esclusi dal backup
 
-# 🛡️ Sicurezza
+<br>
+
+## 🛡️ Sicurezza
 Il programma include protezioni per:
 
 File di sistema (pagefile.sys, hiberfil.sys, etc.)
